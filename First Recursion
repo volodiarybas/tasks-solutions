@@ -1,4 +1,0 @@
-const RecursionChallenge = num => {
-	if (num === 1) return num;
-  return num * RecursionChallenge(num - 1);
-};
